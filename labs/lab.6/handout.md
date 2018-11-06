@@ -9,7 +9,7 @@ Send commands to motor controller from the STM32 MCU.
 ## Configuration
 - Download the FreeRTOS library http://www.freertos.org/
 - Add FreeRTOS source library to your project folder. That library file is separated within a folder called FreeRTOS. In that folder is consist of these file:  
-![FreeRTOS files to copy](./inside-folder.png)
+![FreeRTOS files to copy](./inside-folder.PNG)
 
 - Copy FreeRTOSConfig.h file from FreeRTOS demo file for STM32F103 using Keil (in folder CORTEX_STM32F103_Keil) to folder FreeRTOS\include in your project.
 - Not all files in the portable folder is needed, you only need MemMang folder and RVDS\ARM_CM3 folder. The ARM_CM3 folder contains SysTick definitions for STM32F103 microcontroller.
