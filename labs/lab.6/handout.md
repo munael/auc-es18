@@ -28,6 +28,9 @@ Send commands to motor controller from the STM32 MCU.
     #define xPortSysTickHandler SysTick_Handler
     ```
 
+- Set your debugger to `Reset and Run`  
+![Debugger Flash Settings](./debug-settings.PNG)
+
 ## Resources/documentation
 - [Commands guide][motor]
 - [SPL][spl] or [SPL (alt)][spl2]
