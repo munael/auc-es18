@@ -14,7 +14,7 @@ Send commands to motor controller from the STM32 MCU.
 ![Sources to include](./project-explorer.PNG)
 
 - Go to the Include Paths settings in the Options for Target dialog and add paths to the FreeRTOS header file:  
-![Sources to include](./compiler-settings.PNG)
+![Compiler include settings](./compiler-settings.png)
 
 - Open FreeRTOSConfig.h file, then add this code for map map the FreeRTOS port interrupt handlers to the CMSIS standard names:
     ```c
